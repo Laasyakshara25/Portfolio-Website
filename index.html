@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podishetty Laasyakshara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Podishetty Laasyakshara</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2 class="section-title"># About Me</h2>
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="about-text">
+                <h3>I am a passionate <i style="color: #a78ee0">Machine Learning Engineer</i> with experience in building intelligent systems. Specialized in AI, predictive modeling, and algorithm optimization.</h3>
+                <div class="about-links">
+                    <a href="https://github.com/laasyakshara25" target="_blank">GitHub</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title"># Experience</h2>
+        <div class="experience">
+            <div class="experience-item">
+                <h3>## Junior Machine Learning Associate</h3>
+                <p><strong>EpsilonPi</strong> - Jan 2023 to Dec 2023</p>
+                <p>> Worked on developing and deploying machine learning models for predictive analytics and improving accuracy by 15%.</p>
+            </div>
+            <div class="experience-item">
+                <h3>## Software Development Engineer III</h3>
+                <p><strong>coding.Studio( );</strong> - Jan 2024 to Present</p>
+                <p>> Leading a team to create automated data pipelines and implementing AI solutions for business intelligence.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title"># Education</h2>
+        <div class="education">
+            <h3 style="color: #a78ee0;">Vignana Bharathi Institute of Technology</h3>
+            <p style="color: #dcd6f7;">B. Tech in Computer Science<br>2022 - 2026</p>
+
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title"># Projects</h2>
+        <div class="projects-blog">
+            <article class="project-entry">
+                <h3>## Disease Prediction System</h3>
+                <p>> Utilized Machine Learning algorithms to predict diseases based on user-provided symptoms, ensuring faster diagnosis and treatment recommendations.</p>
+                <div class="project-tags">
+                    <a href="https://github.com" target="_blank">// GitHub Link</a>
+                </div>
+            </article>
+            <article class="project-entry">
+                <h3>## Real-Time Anomaly Detection</h3>
+                <p>> Developed a system to detect cyberattacks in real-time using advanced AI techniques, enhancing network security and threat response.</p>
+                <div class="project-tags">
+                    <a href="https://github.com" target="_blank">// GitHub Link</a>
+                </div>
+            </article>
+            <article class="project-entry">
+                <h3>## Carbon Footprint Tracker</h3>
+                <p>> Created a tool to help users track and reduce their carbon footprint, promoting sustainability through actionable insights.</p>
+                <div class="project-tags">
+                    <a href="https://github.com" target="_blank">// GitHub Link </a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; 2025 Podishetty Laasyakshara. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
