@@ -27,9 +27,8 @@ header {
     text-decoration: none;
     color: #eaeaea;
     font-weight: bold;
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: 1px solid #eaeaea;
+    padding: 9px 10px;
+   
     transition: background 0.3s ease, color 0.3s ease;
 }
 
@@ -60,12 +59,12 @@ header h1 {
 .nav-links.active {
     display: flex;
     flex-direction: column;
-    background: #280A33;
+    background: #2c2c44;
     position: absolute;
     top: 60px;
     right: 0;
-    width: 100%;
-    padding: 20px 0;
+    width: 50%;
+    padding: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -129,12 +128,11 @@ section {
     text-decoration: none;
     color: #dcd6f7;
     font-weight: bold;
-    padding: 10px 13px;
+    padding: 6px 10px;
     margin: 10px;
     text-align: center;
+    border: solid #dcd6f7 1px;
     line-height: 1.6;
-    border: 1px dashed #dcd6f7;
-    background: #2c2c44;
     transition: transform 0.3s ease, background 0.3s ease;
 }
 
@@ -178,8 +176,20 @@ section {
     color:#a9a9b3;
 }
 .project-tags a:hover{
-    color: #eaeaea;
+    color: #a78ee0;
 }
+#contact .contact-info a {
+    text-decoration: none;
+    border: solid #dcd6f7 1px;
+    padding: 8px 9px;
+  }
+
+
+  
+  .contact-button:hover {
+    color: #dcd6f7; /* Darker color on hover */
+  }
+  
 
 footer {
     text-align: center;
