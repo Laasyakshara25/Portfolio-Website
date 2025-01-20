@@ -1,1 +1,1 @@
-### Portfolio Website using HTML, CSS and Javascript.
+### Portfolio Website made using HTML, CSS and Javascript.
